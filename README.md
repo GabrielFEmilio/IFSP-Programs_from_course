@@ -98,7 +98,7 @@ If you find this repository useful or interesting, consider giving it a ⭐.
 
 ---
 
-##📌 Author
+## 📌 Author
 
 Gabriel Feltrin Emilio  
 This repository was developed as part of my Engineering studies.
