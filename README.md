@@ -31,10 +31,22 @@ The main goal is to document my learning journey, track my progress over time, a
 ## 📂 Repository Structure
 
 ```
-.
-├── EX1.cpp
-├── Ola_Mundo.cpp
-├── ...
+└── Cpp_First_semester/
+    ├── Ola_Mundo.cpp
+    ├── Sub.cpp
+    ├── age.cpp
+    ├── celsius_to_F.cpp
+    ├── circle.cpp
+    ├── grades.cpp
+    ├── hours_per_work.cpp
+    ├── investing.cpp
+    ├── kg_to_g.cpp
+    ├── multiplication_table.cpp
+    ├── power_of_a_number.cpp
+    ├── rectangle.cpp
+    ├── salary.cpp
+    ├── theater_show.cpp
+    ├── triangle.cpp
 
 ```
 
