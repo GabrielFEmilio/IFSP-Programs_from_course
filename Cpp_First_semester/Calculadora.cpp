@@ -5,7 +5,7 @@
 int main() {
     setlocale(LC_ALL, "Portuguese");
 
-    int n1, n2, opcao; // n1 e n2 são os números, opcao é a escolha do menu
+    int n1, n2, opcao;
 
     std::printf("--- CALCULADORA ---\n");
     
@@ -15,7 +15,6 @@ int main() {
     std::printf("Digite o segundo número: ");
     std::scanf("%d", &n2);
 
-    // AGORA MOSTRAMOS O MENU
     std::printf("\nO que você deseja fazer?\n");
     std::printf("1 - Somar\n");
     std::printf("2 - Subtrair\n");
@@ -23,10 +22,8 @@ int main() {
     std::printf("4 - Dividir\n");
     std::printf("Sua opção: ");
     
-    // ESSA LINHA ABAIXO É A QUE ESTAVA FALTANDO!
     std::scanf("%d", &opcao); 
 
-    // Agora testamos a OPCAO, e não os números da conta
     if (opcao == 1) {
         std::printf("Resultado da Soma: %d\n", n1 + n2);
     } 
